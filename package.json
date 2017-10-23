@@ -1,0 +1,25 @@
+{
+  "name": "expo-whitestorm",
+  "version": "0.0.0",
+  "description": "A library to use WhitestormJS 2 with Expo",
+  "author": "Expo",
+  "private": true,
+  "main": "src/ExpoWhitestorm.js",
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "dependencies": {
+    "expo": "^22.0.0",
+    "fbemitter": "^2.1.1",
+    "invariant": "^2.2.2",
+    "nullthrows": "^1.0.0",
+    "react": "16.0.0-beta.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.1.tar.gz",
+    "whs": "^2.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-universe": "^1.0.6",
+    "prettier": "^1.7.4"
+  }
+}

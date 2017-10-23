@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Expo Whitestorm",
+    "description": "A demo of WhitestormJS on Expo",
+    "slug": "whitestorm",
+    "version": "1.0.0",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "config": "./rn-cli.config.js"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
